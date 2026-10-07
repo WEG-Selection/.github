@@ -1,197 +1,241 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="WEG Selection — Gestão de oportunidades e indicação de aprendizes" width="100%" />
-</p>
-<p align="center">
-  <strong>Uma plataforma para centralizar e acompanhar o processo de indicação de aprendizes às oportunidades da empresa.</strong>
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-0B65B1?style=flat-square" alt="Status: em desenvolvimento" />
-  <img src="https://img.shields.io/badge/projeto-integrador-0A3D75?style=flat-square" alt="Projeto Integrador" />
-  <img src="https://img.shields.io/badge/IA-apoio%20%C3%A0%20decis%C3%A3o-18A6B7?style=flat-square" alt="IA como apoio à decisão" />
-</p>
-> **Projeto Integrador — CentroWEG** · Engenharia de Software
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:123B66,100:1E6FB8&height=220&section=header&text=WEG%20Selection&fontSize=42&fontColor=F4F7FA&fontAlignY=38&desc=Sistema%20de%20gestão%20e%20seleção%20de%20aprendizes&descSize=16&descAlignY=58&descColor=F4F7FA" width="100%"/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=16\&pause=1000\&color=6FA8DC\&center=true\&vCenter=true\&width=700\&lines=Gestão+de+aprendizes+🎓;Seleção+orientada+por+dados+📊;Inteligência+Artificial+como+apoio+à+decisão+🤖;Projeto+Integrador+CentroWEG+💻)](https://git.io/typing-svg)
+
+<br>
+
+![Status](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-6FA8DC?style=flat-square\&labelColor=0B1220)
+![Projeto](https://img.shields.io/badge/PROJETO-INTEGRADOR-1E6FB8?style=flat-square\&labelColor=0B1220)
+![CentroWEG](https://img.shields.io/badge/CENTROWEG-INFORMÁTICA%20PARA%20INTERNET-6FA8DC?style=flat-square\&labelColor=0B1220)
+![WEG](https://img.shields.io/badge/WEG-SELECTION-1E6FB8?style=flat-square\&labelColor=0B1220)
+
+<br>
+
+</div>
+
 ---
-Visão geral
-O WEG Selection é um sistema web corporativo criado para organizar o processo de encaminhamento de aprendizes para oportunidades nas áreas da empresa.
-A plataforma reúne em um só lugar as informações sobre aprendizes, oportunidades, indicações, entrevistas e resultados. Assim, reduz a dependência de informações distribuídas em planilhas, e-mails e outros canais de comunicação, além de facilitar o acompanhamento de cada etapa.
-O problema que queremos resolver
-O encaminhamento de aprendizes exige analisar diferentes informações antes de realizar uma indicação, como:
-desempenho técnico e acadêmico;
-turma e situação do aprendiz;
-áreas de interesse;
-histórico de conversas com a coordenação;
-requisitos da oportunidade;
-resultados de entrevistas.
-Quando essas informações ficam distribuídas em diferentes fontes, o processo pode se tornar mais trabalhoso, dificultando a comparação entre aprendizes e o acompanhamento das etapas posteriores à indicação.
-A proposta
-O WEG Selection centraliza os dados e organiza o fluxo de trabalho em etapas rastreáveis.
-<p align="center">
-  <strong>Oportunidade</strong> &nbsp; → &nbsp; <strong>Análise</strong> &nbsp; → &nbsp; <strong>Ranking</strong> &nbsp; → &nbsp; <strong>Recomendação</strong><br />
-  ↓<br />
-  <strong>Indicação</strong> &nbsp; → &nbsp; <strong>Entrevista</strong> &nbsp; → &nbsp; <strong>Resultado</strong> &nbsp; → &nbsp; <strong>Alocação</strong>
-</p>
-A Inteligência Artificial atua como recurso de apoio à decisão, sugerindo compatibilidades entre os requisitos de uma oportunidade e as informações disponíveis sobre os aprendizes. A decisão final permanece com o responsável pelo processo.
+
+# 👋 Sobre o projeto
+
+O **WEG Selection** é uma aplicação desenvolvida como **Projeto Integrador do CentroWEG**, criada para apoiar o processo de indicação e seleção de aprendizes para oportunidades dentro da empresa.
+
+A plataforma centraliza informações que antes ficam distribuídas entre diferentes etapas do processo, permitindo acompanhar **oportunidades, aprendizes, indicações, entrevistas e resultados** em um único ambiente.
+
+<br>
+
+> **A IA recomenda. O coordenador decide.**
+
+A Inteligência Artificial atua como apoio à análise de compatibilidade entre aprendizes e oportunidades, enquanto a decisão final permanece com o responsável pelo processo.
+
 ---
-Como funciona
-<table>
-  <thead>
-    <tr><th align="center">Etapa</th><th>O que acontece</th></tr>
-  </thead>
-  <tbody>
-    <tr><td align="center"><strong>01 · Oportunidade</strong></td><td>O Autor do Processo cadastra no sistema a oportunidade recebida por canais externos, como e-mail ou Teams.</td></tr>
-    <tr><td align="center"><strong>02 · Análise</strong></td><td>O coordenador consulta os aprendizes de seu escopo e analisa informações acadêmicas e de desempenho.</td></tr>
-    <tr><td align="center"><strong>03 · Recomendação</strong></td><td>O sistema apresenta um ranking técnico e uma recomendação de compatibilidade baseada nos dados disponíveis.</td></tr>
-    <tr><td align="center"><strong>04 · Indicação</strong></td><td>O coordenador avalia as informações e registra a indicação do aprendiz.</td></tr>
-    <tr><td align="center"><strong>05 · Entrevista</strong></td><td>O Autor do Processo acompanha o agendamento e as informações necessárias para a entrevista.</td></tr>
-    <tr><td align="center"><strong>06 · Resultado</strong></td><td>O resultado é registrado para que o processo avance para uma nova indicação ou para a etapa de alocação.</td></tr>
-  </tbody>
-</table>
-Perfis de acesso
-Perfil	Responsabilidades principais
-Coordenador	Consultar turmas, aprendizes e dados acadêmicos; registrar conversas; consultar ranking e recomendações; realizar indicações e acompanhar o processo.
-Autor do Processo	Cadastrar oportunidades; acompanhar indicações; organizar entrevistas; registrar retornos e resultados; consultar indicadores.
-Gestão CTW	Acompanhar indicadores gerais, resultados e aprendizes aprovados dentro de seu escopo.
-Administrador	Gerenciar usuários, permissões e acessos às funcionalidades.
-> Gestores autorizados, como Luana e Sidney, podem acessar configurações administrativas e definir permissões dos usuários.
-Funcionalidades previstas
-🔐 Autenticação e controle de acesso;
-👥 gerenciamento de usuários e permissões;
-🎓 gerenciamento de turmas e aprendizes;
-📊 consulta de dados acadêmicos e desempenho técnico;
-💬 registro e histórico de conversas;
-💼 cadastro e gerenciamento de oportunidades;
-📈 ranking técnico de aprendizes;
-🤖 recomendação de compatibilidade com apoio de IA;
-📌 registro e acompanhamento de indicações;
-📅 gerenciamento de entrevistas;
-✅ registro de resultados;
-📋 acompanhamento de alocações;
-📊 indicadores e dashboards;
-🧾 histórico e rastreabilidade das movimentações.
-Arquitetura da aplicação
-A aplicação separa as responsabilidades entre interface, API e persistência de dados. O front-end se comunica com o back-end por meio de uma API REST.
-```text
-┌──────────────────────────────────┐
-│             FRONT-END            │
-│       Next.js · React · TS       │
-└────────────────┬─────────────────┘
-                 │ HTTP / REST
-                 ▼
-┌──────────────────────────────────┐
-│              BACK-END            │
-│          Java · Spring Boot      │
-│                                  │
-│  Controllers · Services          │
-│  Repositories · DTOs / Mappers   │
-│  Segurança e autenticação        │
-└────────────────┬─────────────────┘
-                 │
-                 ▼
-┌──────────────────────────────────┐
-│           BANCO DE DADOS         │
-│               MySQL              │
-└──────────────────────────────────┘
-```
-Tecnologias
-<table>
-  <thead><tr><th>Camada</th><th>Tecnologias</th></tr></thead>
-  <tbody>
-    <tr><td><strong>Back-end</strong></td><td>Java · Spring Boot · Spring Data JPA · Spring Security · Maven · OpenAPI / Swagger</td></tr>
-    <tr><td><strong>Front-end</strong></td><td>Next.js · React · TypeScript</td></tr>
-    <tr><td><strong>Banco de dados</strong></td><td>MySQL</td></tr>
-    <tr><td><strong>Versionamento e planejamento</strong></td><td>Git · GitHub · GitHub Projects · Pull Requests · Conventional Commits</td></tr>
-  </tbody>
-</table>
-Estrutura do back-end
-A organização segue a separação por responsabilidades:
-```text
-src/
-└── main/
-    ├── java/
-    │   └── .../
-    │       ├── config/
-    │       ├── controller/
-    │       ├── dto/
-    │       ├── entity/
-    │       ├── error/
-    │       ├── exception/
-    │       ├── mapper/
-    │       ├── repository/
-    │       └── service/
-    └── resources/
-        └── application.properties
-```
-API REST
-A API contempla recursos relacionados aos principais fluxos do sistema:
-```text
-/api/auth
-/api/usuarios
-/api/turmas
-/api/aprendizes
-/api/conversas
-/api/oportunidades
-/api/indicacoes
-/api/entrevistas
-/api/indicadores
-/api/resultados
-```
-A documentação interativa dos endpoints será disponibilizada por meio do Swagger / OpenAPI.
-Inteligência Artificial responsável
-A IA do WEG Selection tem caráter assistivo. Ela pode analisar requisitos da oportunidade, desempenho técnico e acadêmico, pontos fortes, áreas de interesse e histórico de conversas registrado pela coordenação.
+
+<br>
+
+# 🎯 O problema
+
+O processo de seleção de aprendizes envolve diferentes informações, pessoas e etapas.
+
+A necessidade de consultar dados acadêmicos, acompanhar oportunidades, analisar o perfil dos aprendizes e registrar as decisões pode tornar o processo mais complexo e dificultar a rastreabilidade das informações.
+
+O **WEG Selection** surge como uma proposta para centralizar esse processo e facilitar a tomada de decisão.
+
+---
+
+<br>
+
+# 💡 A proposta
+
+A plataforma reúne em um único sistema:
+
+* 👥 Informações dos aprendizes
+* 🎓 Dados acadêmicos e desempenho técnico
+* 💼 Oportunidades disponíveis
+* 📊 Ranking técnico dos aprendizes
+* 🤖 Recomendações de compatibilidade por IA
+* 📝 Histórico de conversas e acompanhamentos
+* 📋 Indicações
+* 🗓️ Entrevistas
+* ✅ Resultados e alocações
+* 📈 Indicadores do processo
+
+---
+
+<br>
+
+# 🔄 Como funciona
+
 ```text
 Oportunidade
      ↓
-Análise dos dados disponíveis
+Cadastro no sistema
      ↓
-Recomendação de compatibilidade pela IA
+Análise dos aprendizes elegíveis
+     ↓
+Ranking técnico
+     ↓
+Análise de compatibilidade por IA
      ↓
 Avaliação do coordenador
      ↓
-Indicação registrada
+Indicação
+     ↓
+Entrevista
+     ↓
+Resultado
+     ↓
+Alocação
 ```
-A IA não seleciona nem indica aprendizes automaticamente. A recomendação é um recurso adicional para apoiar a análise humana, e não substitui a decisão do coordenador.
-Organização do desenvolvimento
-O projeto utiliza princípios de Scrum e acompanha o trabalho pelo GitHub Projects. A organização inclui Product Backlog, Sprint Backlog, Planning, Daily, Sprint Review, retrospectiva, Pull Requests e Code Review.
-```text
-Backlog
-   ↓
-Sprint Backlog
-   ↓
-In Progress
-   ↓
-Code Review
-   ↓
-In Testing / QA
-   ↓
-Done
-```
-Roadmap
-MVP — Entrega 1: estrutura inicial e funcionalidades prioritárias para demonstrar o fluxo principal de oportunidades e indicação de aprendizes.
-Entrega 2: evoluções e funcionalidades adicionais identificadas durante o desenvolvimento, a validação e o feedback dos stakeholders.
-O roadmap poderá ser atualizado conforme novos requisitos, riscos e prioridades forem identificados.
-Documentação do projeto
-A documentação é organizada ao longo do desenvolvimento e contempla:
-levantamento de demandas;
-requisitos funcionais e não funcionais;
-regras de negócio e matriz de rastreabilidade;
-User Stories e critérios de aceitação;
-diagramas UML e fluxos do processo;
-arquitetura e protótipos;
-ADRs e roadmap;
-registros das cerimônias ágeis.
-Recurso	Link
-Fluxograma do processo	Adicionar o link definitivo do fluxograma
-Planejamento do projeto	Adicionar o link do GitHub Projects
-Documentação da API	Swagger / OpenAPI — disponível conforme a configuração do ambiente
-Status do projeto
-<p>
-  <img src="https://img.shields.io/badge/WEG%20Selection-em%20desenvolvimento-0B65B1?style=for-the-badge" alt="WEG Selection em desenvolvimento" />
-</p>
-O desenvolvimento acontece de forma incremental, com validações periódicas de escopo e evolução contínua das funcionalidades.
-Equipe
-Projeto Integrador — Engenharia de Software  
-Equipe responsável pelo desenvolvimento do WEG Selection no contexto do CentroWEG.
+
+A recomendação gerada pela IA **não substitui a análise humana** e não impede que outros aprendizes sejam considerados.
+
 ---
+
+<br>
+
+# 👥 Perfis
+
+### 👨‍💼 Coordenador
+
+Responsável pela análise dos aprendizes e das oportunidades.
+
+* Consulta aprendizes e turmas
+* Visualiza desempenho acadêmico
+* Consulta histórico de conversas
+* Analisa rankings
+* Consulta recomendações da IA
+* Realiza indicações
+* Acompanha o processo
+
+### 📋 Autor do Processo
+
+Responsável pela centralização e acompanhamento das oportunidades.
+
+* Cadastra oportunidades
+* Consulta indicações
+* Agenda entrevistas
+* Registra retornos
+* Acompanha resultados
+* Consulta indicadores
+
+### 📊 Gestão CTW
+
+Acompanha informações consolidadas do processo.
+
+* Visualiza indicadores
+* Consulta aprendizes aprovados
+* Acompanha resultados da gestão
+
+### ⚙️ Administrador
+
+Responsável pelo gerenciamento dos usuários e permissões de acesso.
+
+---
+
+<br>
+
+# 🤖 Inteligência Artificial
+
+A IA é utilizada como **apoio à tomada de decisão**.
+
+A análise considera informações relacionadas à oportunidade e ao perfil do aprendiz para gerar uma recomendação de compatibilidade.
+
+```text
+Oportunidade
+     +
+Dados técnicos
+     +
+Histórico
+     +
+Áreas de interesse
+     ↓
+Análise de IA
+     ↓
+Recomendação de compatibilidade
+```
+
+### ⚠️ Decisão humana
+
+A IA **não seleciona, indica ou elimina aprendizes automaticamente**.
+
+> **A IA recomenda. O coordenador decide.**
+
+---
+
+<br>
+
+# 💻 Tecnologias
+
 <p align="center">
-  <sub>Projeto acadêmico desenvolvido para fins educacionais · CentroWEG</sub>
+
+<img src="https://skillicons.dev/icons?i=java,spring,mysql,maven,docker,react,ts,html,css,git,github,idea,vscode,figma" />
+
 </p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/REST%20API-123B66?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/JPA-1E6FB8?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/JUnit-6FA8DC?style=for-the-badge&logo=junit5&logoColor=0B1220"/>
+<img src="https://img.shields.io/badge/Swagger-123B66?style=for-the-badge&logo=swagger&logoColor=white"/>
+
+</p>
+
+---
+
+<br>
+
+# 🏗️ Arquitetura
+
+O sistema segue uma arquitetura baseada na separação de responsabilidades:
+
+```text
+┌──────────────────────────────┐
+│          Front-end           │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│          REST API            │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│          Services            │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│         Repositories         │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌──────────────────────────────┐
+│           MySQL              │
+└──────────────────────────────┘
+```
+
+---
+
+<br>
+
+# 📚 Documentação
+
+A documentação do projeto está organizada no repositório para facilitar o acompanhamento do desenvolvimento.
+
+| Documento                    | Descrição                          |
+| :--------------------------- | :--------------------------------- |
+| 📋 Requisitos Funcionais     | Funcionalidades do sistema         |
+| ⚙️ Requisitos Não Funcionais | Requisitos de qualidade            |
+| 👤 User Stories              | Necessidades dos usuários          |
+| 🗺️ Roadmap                  | Planejamento das entregas          |
+| 🔄 Fluxogramas               | Processos e fluxos do sistema      |
+| 🏗️ Arquitetura              | Estrutura técnica da aplicação     |
+| 🗄️ Banco de Dados           | Modelo e estrutura dos dados       |
+| 📖 API                       | Endpoints e contratos da aplicação |
+| 📝 ADRs                      | Decisões arquiteturais             |
+
+---
+
+<br>
