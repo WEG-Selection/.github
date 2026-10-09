@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:123B66,100:1E6FB8&height=220&section=header&text=WEG%20Selection&fontSize=42&fontColor=F4F7FA&fontAlignY=38&desc=Sistema%20de%20gestão%20e%20seleção%20de%20aprendizes&descSize=16&descAlignY=58&descColor=F4F7FA" width="100%"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=16\&pause=1000\&color=6FA8DC\&center=true\&vCenter=true\&width=700\&lines=Gestão+de+aprendizes+🎓;Seleção+orientada+por+dados+📊;Inteligência+Artificial+como+apoio+à+decisão+🤖;Projeto+Integrador+CentroWEG+💻)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&size=16\&pause=1000\&color=6FA8DC\&center=true\&vCenter=true\&width=700\&lines=Gestão+de+aprendizes+🎓;Seleção+orientada+por+dados+📊;Projeto+Integrador+CentroWEG+💻)](https://git.io/typing-svg)
 
 <br>
 
@@ -24,10 +24,6 @@ O **WEG Selection** é uma aplicação desenvolvida como **Projeto Integrador do
 A plataforma centraliza informações que antes ficam distribuídas entre diferentes etapas do processo, permitindo acompanhar **oportunidades, aprendizes, indicações, entrevistas e resultados** em um único ambiente.
 
 <br>
-
-> **A IA recomenda. O coordenador decide.**
-
-A Inteligência Artificial atua como apoio à análise de compatibilidade entre aprendizes e oportunidades, enquanto a decisão final permanece com o responsável pelo processo.
 
 ---
 
@@ -53,7 +49,6 @@ A plataforma reúne em um único sistema:
 * 🎓 Dados acadêmicos e desempenho técnico
 * 💼 Oportunidades disponíveis
 * 📊 Ranking técnico dos aprendizes
-* 🤖 Recomendações de compatibilidade por IA
 * 📝 Histórico de conversas e acompanhamentos
 * 📋 Indicações
 * 🗓️ Entrevistas
@@ -75,7 +70,7 @@ Análise dos aprendizes elegíveis
      ↓
 Ranking técnico
      ↓
-Análise de compatibilidade por IA
+Análise de compatibilidade com filtros
      ↓
 Avaliação do coordenador
      ↓
@@ -87,8 +82,6 @@ Resultado
      ↓
 Alocação
 ```
-
-A recomendação gerada pela IA **não substitui a análise humana** e não impede que outros aprendizes sejam considerados.
 
 ---
 
@@ -104,7 +97,6 @@ Responsável pela análise dos aprendizes e das oportunidades.
 * Visualiza desempenho acadêmico
 * Consulta histórico de conversas
 * Analisa rankings
-* Consulta recomendações da IA
 * Realiza indicações
 * Acompanha o processo
 
@@ -135,11 +127,6 @@ Responsável pelo gerenciamento dos usuários e permissões de acesso.
 
 <br>
 
-# 🤖 Inteligência Artificial
-
-A IA é utilizada como **apoio à tomada de decisão**.
-
-A análise considera informações relacionadas à oportunidade e ao perfil do aprendiz para gerar uma recomendação de compatibilidade.
 
 ```text
 Oportunidade
@@ -150,16 +137,11 @@ Histórico
      +
 Áreas de interesse
      ↓
-Análise de IA
+Filtragem de aprendizes
      ↓
 Recomendação de compatibilidade
 ```
 
-### ⚠️ Decisão humana
-
-A IA **não seleciona, indica ou elimina aprendizes automaticamente**.
-
-> **A IA recomenda. O coordenador decide.**
 
 ---
 
