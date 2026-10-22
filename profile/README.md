@@ -17,13 +17,13 @@
 
 ---
 
-# 👋 Sobre o projeto
+## 👋 Sobre o projeto
 
-O **WEG Selection** é uma aplicação desenvolvida como **Projeto Integrador do CentroWEG**, criada para apoiar o processo de indicação e seleção de aprendizes para oportunidades dentro da empresa.
+📚 **[Acesse a documentação completa do WEG Selection](https://docs.google.com/document/d/1vPUNSuyHubmBMKOIIh2nq9XH3sE2Jh1f1ii6F9Oz9vI/edit?usp=sharing)**
+
+O WEG Selection é uma aplicação desenvolvida como **Projeto Integrador do CentroWEG**, criada para apoiar o processo de indicação e seleção de aprendizes para oportunidades dentro da empresa.
 
 A plataforma centraliza informações que antes ficam distribuídas entre diferentes etapas do processo, permitindo acompanhar **oportunidades, aprendizes, indicações, entrevistas e resultados** em um único ambiente.
-
-<br>
 
 ---
 
