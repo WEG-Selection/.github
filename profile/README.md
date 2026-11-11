@@ -151,7 +151,7 @@ Recomendação de compatibilidade
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,mysql,maven,docker,react,ts,html,css,git,github,idea,vscode,figma" />
+<img src="https://skillicons.dev/icons?i=java,spring,postgres,maven,docker,react,ts,html,css,git,github,idea,vscode,figma" />
 
 </p>
 
